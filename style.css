@@ -99,14 +99,13 @@ nav div button,select{
 }
 
 
-.email-signup #email{
+.header-content .email-signup .email{
     flex: 1;
     border: 0;
     outline: 0;
     margin-left: 20px;
-    background: transparent;
+    background: white;
     cursor: pointer;
-
 }
 
 .submitbtnofesup{
@@ -121,10 +120,54 @@ nav div button,select{
     font-weight: 600;
 }
 .crossbtn{
-   font-size: 25px;
+    font-size: 25px;
     text-align: center;
 }
 
 .submitbtnofesup:hover{
-    
+    background: #db0000da;
+    color: #fff;
+}
+/* inBetweengap */
+.inBetweengap{
+    width: 100%;
+    height: 10px;
+    background-color: rgb(55, 55, 55);
+}
+
+/* 2nd container */
+
+.enjoyDiv{
+    color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 80vh;
+    width: 100%;
+    padding: 20px 50px 50px 100px;
+    /* background-color: blue; */
+    /* margin: 10px 0 10px 0; */
+    position: relative;
+}
+.enjoyDiv-left{
+    /* background-color: white; */
+    padding: 150px 0 0 40px;
+    position: static;
+}
+.enjoyDiv-left h1{
+    font-size: 40px;
+    max-width: 650px;
+    line-height: 50px;
+}
+.enjoyDiv-left h2{
+    font-size: 25px;
+    font-weight: 300;
+}
+.tvofenjoyDiv-right{
+    background-image: url(./assetts/enjoyDiv-right.gif);
+    width: 100%;
+    /* padding-right: 30px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
 }
