@@ -237,3 +237,37 @@ nav div button,select{
     height: 80%px;
     margin-top: 60px;
 }
+
+/* feature 4 */
+
+.feature4{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    /* background-color: white; */
+    width: 100%;
+    height: 80vh;
+}
+.feature4-left{
+    /* background-color: blue; */
+}
+.feature4-left>img{
+    width: 90%;
+    height: 90%;
+    /* background-color: #db0001; */
+    padding: 100px 0 0 100px;
+}
+.feature4-right{
+    /* background-color: green; */
+    /* padding: 0px 10px 0 0 ;   */
+}
+.feature4-right-inner{
+    /* background-color: purple; */
+    padding: 100px 30px 0 0;
+}
+.feature4-right-inner>h1{
+    font-size: 60px;
+}
+.feature4-right-inner>p{
+    font-size: 23px;
+}
